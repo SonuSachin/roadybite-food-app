@@ -1,0 +1,84 @@
+// ROADYBITE – WhatsApp API Backend + Admin + Invoicing + Store Assets
+// Stack: Node.js + Express (Backend), React Native (Frontend), Secure Admin
+
+/* ==================================================
+A) PDF INVOICE GENERATOR (AUTO-SEND ON WHATSAPP)
+================================================== */
+
+// Uses: pdfkit + fs
+// Generates invoice for each order with unique Order ID
+// Sends PDF to both Customer & Owner via WhatsApp
+
+/* Example Flow:
+1. Order confirmed
+2. Invoice PDF generated
+3. Auto-sent via WhatsApp
+*/
+
+/* ==================================================
+B) OWNER ADMIN APP (STRICTLY PROTECTED)
+================================================== */
+
+// Features
+// - Owner-only login (Mobile OTP)
+// - Device binding (1 phone = 1 admin)
+// - Cannot modify menu or price without owner auth
+// - View all orders & payment status
+// - Change order state: Preparing → Ready → Pick up
+
+/* Security:
+- JWT + OTP
+- Device ID lock
+- No public admin access
+*/
+
+/* ==================================================
+C) APP ICON & BRAND ASSETS
+================================================== */
+
+// App Name: Shanon Raj’s Food Zone
+// Icon Concept:
+// - Biryani bowl
+// - Orange & Navy theme
+// - Clean, bold typography
+
+// Android: mipmap-hdpi, xhdpi, xxhdpi
+// iOS: AppIcon.appiconset (all sizes)
+
+/* ==================================================
+D) PLAY STORE & APP STORE LISTING (SAMPLE)
+================================================== */
+
+/* Play Store */
+// App Name: Shanon Raj’s Food Zone
+// Short Description:
+// One-click pre-order. Grab & Go—zero wait.
+
+// Full Description:
+// Pre-order delicious Chicken Biryani with instant pickup.
+// Pay via UPI, get WhatsApp updates, zero waiting time.
+
+// Category: Food & Drink
+// Privacy: No data shared with third parties
+
+/* App Store */
+// Subtitle:
+// Fast Pre-Order & Pickup
+
+// Keywords:
+// food, biryani, takeaway, preorder
+
+/* ==================================================
+STATUS
+================================================== */
+// ✔ Invoice system designed
+// ✔ Admin security defined
+// ✔ Branding & icon plan ready
+// ✔ Store listings prepared
+
+// NOTE:
+// APK/IPA generation requires Expo/EAS build with developer credentials.
+// I can give you:
+// - Full GitHub repo structure
+// - Build commands
+// - Play Store & App Store submission steps
