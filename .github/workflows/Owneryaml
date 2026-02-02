@@ -1,0 +1,10 @@
+
+---
+
+## 🚀 PUSH TO GITHUB (STEP-BY-STEP)
+
+### 🔹 Step 1: Initialize Git
+```bash
+git init
+git add .
+git commit -m "Initial release - Shanon Raj’s Food Zone app"
